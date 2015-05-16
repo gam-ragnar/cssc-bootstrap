@@ -1,8 +1,8 @@
 Package.describe({
   summary: 'Bootstrap plugin for CSSC',
-  version: '0.0.2',
+  version: '0.0.3',
   name: 'timfam:cssc-bootstrap',
-  // git: 'https://github.com/PEM--/cssc-bootstrap.git'
+  git: 'https://github.com/timfam/cssc-bootstrap.git'
 });
 
 Package.onUse(function(api) {

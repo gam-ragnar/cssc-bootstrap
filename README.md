@@ -9,5 +9,5 @@ It provides bootstrap styling
 
 ## Installation
 ```bash
-meteor add pierreeric:cssc-bootstrap
+meteor add timfam:cssc-bootstrap
 ```

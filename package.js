@@ -1,12 +1,12 @@
 Package.describe({
   summary: 'Bootstrap plugin for CSSC',
-  version: '0.0.1',
+  version: '0.0.2',
   name: 'timfam:cssc-bootstrap',
   // git: 'https://github.com/PEM--/cssc-bootstrap.git'
 });
 
 Package.onUse(function(api) {
-  api.use(['coffeescript', 'pierreeric:cssc@1.0.4',]);
+  api.use(['coffeescript@1.0.6', 'pierreeric:cssc@1.0.4',]);
   api.addFiles('cssc-bootstrap.coffee', 'client');
   api.imply('pierreeric:cssc');
 });
